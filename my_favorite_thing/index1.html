@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>"My Hobby"</title>
+        <script src="https://unpkg.com/vue@3"></script>
+        <script src="https://unpkg.com/vue-router@4"></script>
+        <link rel="stylesheet" href="sass/modules/main.css">
+    </head>
+    <body>
+        <div  id="app">
+            <h1 class="teamTitle">My favorite thing</h1>
+            <div id="ourTeamD">
+                <div class="teamImagesD">
+                    <p class="teamTitle" >I feel so happy to introduce me for in the private space.</you></p>
+                        
+                    <div class="teamText" >
+                        <router-link to="/">Design</router-link><br>
+                        <router-link to="/marketing">Marketing</router-link><br>
+                        <router-link to="/writing">Writing</router-link><br>
+                    </div>
+                       
+                        
+                    <a  class="teamText" href="./index.html">
+                        <button id ="close" @click="logicbutton" >Back</button>
+                    </a>
+        
+                </div>
+            </div>
+            
+            <router-view></router-view>
+        </div>
+
+        <div>
+            <section class="mobile">
+                <div class="ourTeamM">
+                    <button class="arrowleft">
+                        <img src="images/SVG/arrowleft.svg" alt="arrow icon">
+                    </button>
+                    <div class="slider">
+                        <ul class="slide">
+                           <li class="professional current">
+                            <h3 class="teamTitleM">Picture</h3>
+                            <img src="images/low/photo.jpg" alt="designer">
+                            <p>I like taking photos for people and views during free time.</p>
+                           </li>
+                           <li class="professional">
+                            <h3 class="teamTitleM">sleeping</h3>
+                            <img src="images/low/sleep.jpg" alt="developer">
+                            <p>I would like to spend more than eight hours on sleeping.</p>
+                           </li>
+                           <li class="professional">
+                            <h3 class="teamTitleM">Talking</h3>
+                            <img src="images/low/talking.jpg" alt="ying">
+                            <p>I also like talking with others by face-to-face or by phone.</p>
+                           </li>
+                        </ul>
+                    </div>
+                    <button class="arrowRight">
+                        <img src="images/SVG/arrowright.svg" alt="arrow icon">
+                    </button>
+            </section>
+    
+            <section class="desktop" id="team" >
+                <div id="ourTeamD">
+                    <div class="teamImagesD">
+                        <h3 class="teamTitle">Picture</h3>
+                        <img src="images/high/photo.jpg" alt="photo Cris" id="cris"/>
+                        <p>I like taking photos for people<br> and views during free time.</p>
+                    </div>
+                    <div class="teamImagesD">
+                        <h3 class="teamTitle">Sleep</h3>
+                        <img src="images/high/sleep.jpg" alt="photo Liz" id="liz"/>
+                        <p>I would like to spend more than<br> eight hours on sleeping.</p>
+                    </div>
+                    <div class="teamImagesD">
+                        <h3 class="teamTitle">Talking</h3>
+                        <img src="images/high/talking.jpg" alt="photo Ying" id="ying"/>
+                        <p>I also like talking with others<br> by face-to-face or by phone.</p>
+                    </div>
+       
+                </div>
+            </section>
+    
+            <div class="teamText">
+                <button class="close">CLOSE</button>
+             <div  class="cris">
+                <h3 class="teamTitle blue">Take Photos</h3>
+                <p>
+                    I like taking photos because of my father. He likes taking photos. When he was young, he also learned how to draw. However, he gave up drawing because he wanted to be a business man. But he gives the genes for me, I like taking photos and keep this hobby until now. 
+                </p>
+             </div>
+             <div class="liz">
+                <h3 class="teamTitle blue">sleeping</h3>
+                <p>
+                    I always feel tired. When I was very young, I spent more than two hours on the transportation to my school. After that period, I always feel I need more time to sleep. Now, I live in London but I still want to save more time to sleep. Sleeping is a big element in my life.
+                </p>
+             </div>
+             <div class="ying">
+                <h3 class="teamTitle blue">Talking</h3>
+                <p>
+                    I am not a open mind person but I still like talking. I have been a educational consulatant for more than three years. I like the job because I can talk with others and help them a lot. In the future, I still want to find a job that I can talk with others. I think I will be a good salesman or I will find a position in a university.
+                </p>
+             </div> 
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
+        <script src="./js/main1.js"></script>
+
+    </body>
+</html>
