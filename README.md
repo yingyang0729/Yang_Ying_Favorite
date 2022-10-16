@@ -25,6 +25,7 @@ I make two pages.
 2.The second page creates pages by JS and VUE JS, and it uses lightbox in the end of the Page. The top part of the second page is created by the VUE Router, and readers can see three kinds of information on the single HTML page. 
 3.I link the two HTML pages.
 4.I hope that I can finish two styles of the single application. 
+5. All the pages are responsive for mobile phone and laptop screen.
 
 And I also use SASS to compile the CSS.
 
