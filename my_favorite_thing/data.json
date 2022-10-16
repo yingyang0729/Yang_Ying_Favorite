@@ -1,0 +1,39 @@
+{
+    "Design": {
+        "topic":"Design",
+        "value":"My future full-time job",
+        "text":"I like design and I also have many years experiences for real design, such as, wedding design and stage design. My future full-time job will be a designer.",
+        "photo":"design.jpg"
+    },
+    "Marketing": {
+        "topic":"Marketing",
+        "value":"My future main job",
+        "text":"I also have a lot of marketing working experience and I have been working as a social marketing sells for a long time. It will be my main job in the future.",
+        "photo":"marketing.jpg"
+    },
+    "Writing": {
+        "topic":"Writing",
+        "value":"My future part-time job",
+        "text":"In the past, I want to be a writer but I do not insist on it because it will spend a lot of time on thinking of scinarios. However, I will be a writer again after I become a senior person.",
+        "photo":"writing.jpg"
+    },
+    "Drama": {
+        "topic":"Drama",
+        "value":"My favorite hobby",
+        "text":"My favorite hobby is watching different kinds of drama because it is a good way to relax. I need spare time after I finish all my assignments. I think watching TV is a best way for enjoying time.",
+        "photo":"drama.jpeg"
+    },
+    "Yoga": {
+        "topic":"Yoga",
+        "value":"My favorite sport",
+        "text":"Yoga is absolutely my favorite sport because it can build my balance and improve my mind grow up. It can keep my mental quiet. I also like listening Yoga music because it helps me to think of my life, and it improves my IQ.",
+        "photo":"yoga.jpg"
+    },
+
+    "Travel": {
+        "topic":"Travel",
+        "value":"My favorite daily leisure",
+        "text":"I have been to many countries, for example, Thailand, Singapore, Korea and the U.S. and so on. I also want to go to Europe if I have enough time.",
+        "photo":"travel.jpg"
+    }
+  }
